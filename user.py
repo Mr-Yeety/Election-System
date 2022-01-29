@@ -1,3 +1,6 @@
+import imp
+from election import Election
+
 class User():
     
     def __init__(self, name, address, id):
@@ -12,6 +15,7 @@ class User():
             return False
         else:
             return True
+   
     
 
 
